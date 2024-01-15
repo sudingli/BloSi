@@ -14,6 +14,11 @@ export default defineConfig({
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
+  locales: [
+    ['en-US', 'English'],
+    ['zh-CN', '中文'],
+  ],
+  // locales: [['en-US', 'English'], ['zh-CN', '中文']],
   navs: [
     null,
     {
