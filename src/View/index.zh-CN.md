@@ -91,4 +91,4 @@ cnpm -v
 
 [更多注意事项](https://juejin.cn/post/7165500644647206948?searchId=202401161111490C24995F8F6D546EAE2D)
 
-<!-- [更多技巧](https://d.umijs.org/guide/demo-principle) -->
+[更多技巧](https://d.umijs.org/guide/demo-principle)
