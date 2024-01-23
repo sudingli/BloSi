@@ -30,6 +30,48 @@ export default () => <Foo title="Change" />;
 
 ### 提交的失败时的端口问题
 
+mac 上使用 git push 命令或者 sourceTree 操作时一直无响应，最后如下错误提示
+
+```sh
+ssh: connect to host github.com port 22: Operation timed out
+fatal: Could not read from remote repository.
+
+ssh: connect to host github.com port 22: Operation timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+这个错误表明 SSH 连接在尝试通过 22 端口连接到远程服务器时超时。这可能是由于网络环境、防火墙设置或代理配置等原因导致的。为了解决此问题，我们可以尝试将 SSH 连接切换到 443 端口
+
+```sh
+cd ~/.ssh
+nano config
+```
+
+复制以下内容：
+
+```sh
+Host github.com
+  User 注册github的邮箱
+  Hostname ssh.github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa
+  Port 443
+```
+
+使用 nano 编辑器，按下 Ctrl + X，然后按 Y 确认保存，最后按 Enter 退出。
+重新测试，发现可以运行
+
+```sh
+ssh -T git@github.com
+
+Hi mywywuqek060! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+重新提交代码，成功
+
 ## NVM
 
 ### 前提
