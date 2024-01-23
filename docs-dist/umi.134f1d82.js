@@ -4015,6 +4015,78 @@
               { className: 'markdown' },
               o.a.createElement(
                 'h2',
+                { id: 'github' },
+                o.a.createElement(
+                  i['AnchorLink'],
+                  { to: '#github', 'aria-hidden': 'true', tabIndex: -1 },
+                  o.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                'gitHub',
+              ),
+              o.a.createElement(
+                'h3',
+                {
+                  id:
+                    '\u63d0\u4ea4\u7684\u5931\u8d25\u65f6\u7684\u7aef\u53e3\u95ee\u9898',
+                },
+                o.a.createElement(
+                  i['AnchorLink'],
+                  {
+                    to:
+                      '#\u63d0\u4ea4\u7684\u5931\u8d25\u65f6\u7684\u7aef\u53e3\u95ee\u9898',
+                    'aria-hidden': 'true',
+                    tabIndex: -1,
+                  },
+                  o.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                '\u63d0\u4ea4\u7684\u5931\u8d25\u65f6\u7684\u7aef\u53e3\u95ee\u9898',
+              ),
+              o.a.createElement(
+                'p',
+                null,
+                'mac \u4e0a\u4f7f\u7528 git push \u547d\u4ee4\u6216\u8005 sourceTree \u64cd\u4f5c\u65f6\u4e00\u76f4\u65e0\u54cd\u5e94\uff0c\u6700\u540e\u5982\u4e0b\u9519\u8bef\u63d0\u793a',
+              ),
+              o.a.createElement(u['a'], {
+                code:
+                  'ssh: connect to host github.com port 22: Operation timed out\nfatal: Could not read from remote repository.\n\nssh: connect to host github.com port 22: Operation timed out\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.',
+                lang: 'sh',
+              }),
+              o.a.createElement(
+                'p',
+                null,
+                '\u8fd9\u4e2a\u9519\u8bef\u8868\u660e SSH \u8fde\u63a5\u5728\u5c1d\u8bd5\u901a\u8fc7 22 \u7aef\u53e3\u8fde\u63a5\u5230\u8fdc\u7a0b\u670d\u52a1\u5668\u65f6\u8d85\u65f6\u3002\u8fd9\u53ef\u80fd\u662f\u7531\u4e8e\u7f51\u7edc\u73af\u5883\u3001\u9632\u706b\u5899\u8bbe\u7f6e\u6216\u4ee3\u7406\u914d\u7f6e\u7b49\u539f\u56e0\u5bfc\u81f4\u7684\u3002\u4e3a\u4e86\u89e3\u51b3\u6b64\u95ee\u9898\uff0c\u6211\u4eec\u53ef\u4ee5\u5c1d\u8bd5\u5c06 SSH \u8fde\u63a5\u5207\u6362\u5230 443 \u7aef\u53e3',
+              ),
+              o.a.createElement(u['a'], {
+                code: 'cd ~/.ssh\nnano config',
+                lang: 'sh',
+              }),
+              o.a.createElement(
+                'p',
+                null,
+                '\u590d\u5236\u4ee5\u4e0b\u5185\u5bb9\uff1a',
+              ),
+              o.a.createElement(u['a'], {
+                code:
+                  'Host github.com\n  User \u6ce8\u518cgithub\u7684\u90ae\u7bb1\n  Hostname ssh.github.com\n  PreferredAuthentications publickey\n  IdentityFile ~/.ssh/id_rsa\n  Port 443',
+                lang: 'sh',
+              }),
+              o.a.createElement(
+                'p',
+                null,
+                '\u4f7f\u7528 nano \u7f16\u8f91\u5668\uff0c\u6309\u4e0b Ctrl + X\uff0c\u7136\u540e\u6309 Y \u786e\u8ba4\u4fdd\u5b58\uff0c\u6700\u540e\u6309 Enter \u9000\u51fa\u3002 \u91cd\u65b0\u6d4b\u8bd5\uff0c\u53d1\u73b0\u53ef\u4ee5\u8fd0\u884c',
+              ),
+              o.a.createElement(u['a'], {
+                code:
+                  "ssh -T git@github.com\n\nHi mywywuqek060! You've successfully authenticated, but GitHub does not provide shell access.",
+                lang: 'sh',
+              }),
+              o.a.createElement(
+                'p',
+                null,
+                '\u91cd\u65b0\u63d0\u4ea4\u4ee3\u7801\uff0c\u6210\u529f',
+              ),
+              o.a.createElement(
+                'h2',
                 { id: 'nvm' },
                 o.a.createElement(
                   i['AnchorLink'],
@@ -31155,12 +31227,20 @@
               exact: !0,
               meta: {
                 filePath: 'src/View/index.zh-CN.md',
-                updatedTime: 1705386254e3,
+                updatedTime: 1705992459e3,
                 componentName: 'View',
                 nav: { title: '\u5de5\u5177', path: '/zh-CN/test' },
                 slugs: [
                   { depth: 2, value: 'View', heading: 'view' },
                   { depth: 2, value: 'Change', heading: 'change' },
+                  { depth: 2, value: 'gitHub', heading: 'github' },
+                  {
+                    depth: 3,
+                    value:
+                      '\u63d0\u4ea4\u7684\u5931\u8d25\u65f6\u7684\u7aef\u53e3\u95ee\u9898',
+                    heading:
+                      '\u63d0\u4ea4\u7684\u5931\u8d25\u65f6\u7684\u7aef\u53e3\u95ee\u9898',
+                  },
                   { depth: 2, value: 'NVM', heading: 'nvm' },
                   { depth: 3, value: '\u524d\u63d0', heading: '\u524d\u63d0' },
                   { depth: 3, value: '\u5b89\u88c5', heading: '\u5b89\u88c5' },
