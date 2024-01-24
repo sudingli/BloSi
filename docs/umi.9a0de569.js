@@ -49,7 +49,7 @@
     (n.o = function(e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (n.p = '/dumi-template/'),
+    (n.p = '/BloSi/'),
     n((n.s = 0));
 })({
   '++zV': function(e, t, n) {
@@ -451,19 +451,6 @@
         return e(this, t, n, r);
       };
     });
-  },
-  '/7QA': function(e, t, n) {
-    'use strict';
-    n.r(t),
-      n.d(t, 'Foo', function() {
-        return i;
-      });
-    var r = n('q1tI'),
-      o = n.n(r),
-      i = e => {
-        var t = e.title;
-        return o.a.createElement('h1', null, t);
-      };
   },
   '/GqU': function(e, t, n) {
     var r = n('RK3t'),
@@ -4026,6 +4013,35 @@
               o.a.createElement(
                 'h3',
                 {
+                  id: '\u8bbf\u95ee\u9875\u9762\u8d85\u65f6\u7684\u95ee\u9898',
+                },
+                o.a.createElement(
+                  i['AnchorLink'],
+                  {
+                    to:
+                      '#\u8bbf\u95ee\u9875\u9762\u8d85\u65f6\u7684\u95ee\u9898',
+                    'aria-hidden': 'true',
+                    tabIndex: -1,
+                  },
+                  o.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                '\u8bbf\u95ee\u9875\u9762\u8d85\u65f6\u7684\u95ee\u9898',
+              ),
+              o.a.createElement(
+                'p',
+                null,
+                o.a.createElement(
+                  i['Link'],
+                  {
+                    to:
+                      'https://blog.csdn.net/oyjl__/article/details/132262919',
+                  },
+                  '\u53c2\u8003',
+                ),
+              ),
+              o.a.createElement(
+                'h3',
+                {
                   id:
                     '\u63d0\u4ea4\u7684\u5931\u8d25\u65f6\u7684\u7aef\u53e3\u95ee\u9898',
                 },
@@ -6465,7 +6481,7 @@
         return i;
       });
     var r = n('YS25'),
-      o = { basename: '/dumi-template/' };
+      o = { basename: '/BloSi/' };
     window.routerBase && (o.basename = window.routerBase);
     var i = Object({ NODE_ENV: 'production' }).__IS_SERVER
         ? null
@@ -16942,8 +16958,7 @@
           -1 === e.indexOf('Mobile Safari') ||
           -1 !== e.indexOf('Chrome') ||
           -1 !== e.indexOf('Windows Phone')) &&
-        window.history &&
-        'pushState' in window.history
+        window.history && 'pushState' in window.history
       );
     }
     function T() {
@@ -19992,8 +20007,7 @@
             ? e.pageX === t.pageX && e.pageY === t.pageY
             : 'clientX' in t &&
               'clientY' in t &&
-              e.clientX === t.clientX &&
-              e.clientY === t.clientY))
+              e.clientX === t.clientX && e.clientY === t.clientY))
       );
     }
     function Mn(e, t) {
@@ -24510,7 +24524,7 @@
           component: function() {
             var e = n('K+nK')['default'],
               t = e(n('q1tI')),
-              r = n('/7QA');
+              r = n('amej');
             return t['default'].createElement(function() {
               return t['default'].createElement(r.Foo, { title: 'First Demo' });
             });
@@ -24524,7 +24538,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'dumi-template': { version: '1.0.0' },
+              BloSi: { version: '1.0.0' },
             },
             componentName: 'Foo',
             identifier: 'Foo-demo',
@@ -24534,7 +24548,7 @@
           component: function() {
             var e = n('K+nK')['default'],
               t = e(n('q1tI')),
-              r = n('/7QA');
+              r = n('amej');
             return t['default'].createElement(function() {
               return t['default'].createElement(r.Foo, { title: 'First Demo' });
             });
@@ -24548,7 +24562,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'dumi-template': { version: '1.0.0' },
+              BloSi: { version: '1.0.0' },
             },
             componentName: 'Foo',
             identifier: 'Foo-1-demo',
@@ -24558,7 +24572,7 @@
           component: function() {
             var e = n('K+nK')['default'],
               t = e(n('q1tI')),
-              r = n('/7QA');
+              r = n('amej');
             return t['default'].createElement(function() {
               return t['default'].createElement(r.Foo, { title: 'Test' });
             });
@@ -24572,7 +24586,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'dumi-template': { version: '1.0.0' },
+              BloSi: { version: '1.0.0' },
             },
             componentName: 'View',
             identifier: 'View-demo',
@@ -24582,7 +24596,7 @@
           component: function() {
             var e = n('K+nK')['default'],
               t = e(n('q1tI')),
-              r = n('/7QA');
+              r = n('amej');
             return t['default'].createElement(function() {
               return t['default'].createElement(r.Foo, { title: 'Test' });
             });
@@ -24596,7 +24610,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'dumi-template': { version: '1.0.0' },
+              BloSi: { version: '1.0.0' },
             },
             componentName: 'View',
             identifier: 'View-1-demo',
@@ -24606,7 +24620,7 @@
           component: function() {
             var e = n('K+nK')['default'],
               t = e(n('q1tI')),
-              r = n('/7QA');
+              r = n('amej');
             return t['default'].createElement(function() {
               return t['default'].createElement(r.Foo, { title: 'Change' });
             });
@@ -24620,7 +24634,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'dumi-template': { version: '1.0.0' },
+              BloSi: { version: '1.0.0' },
             },
             componentName: 'View',
             identifier: 'View-1-demo-1',
@@ -24684,6 +24698,19 @@
         });
     }
     e.exports = { set: r, get: o, has: i, enforce: h, getterFor: v };
+  },
+  amej: function(e, t, n) {
+    'use strict';
+    n.r(t),
+      n.d(t, 'Foo', function() {
+        return i;
+      });
+    var r = n('q1tI'),
+      o = n.n(r),
+      i = function(e) {
+        var t = e.title;
+        return o.a.createElement('h1', null, t);
+      };
   },
   apDx: function(e, t, n) {
     var r = n('dG/n');
@@ -29563,7 +29590,7 @@
   },
   q3YX: function(e) {
     e.exports = JSON.parse(
-      '{"menus":{"en-US":{"/components":[{"title":"Components","path":"/components/foo","meta":{},"children":[{"path":"/components/foo","title":"Foo","meta":{}}]}],"/test":[{"title":"\u81ea\u5b9a\u4e49\u5206\u7ec4\u540d\u79f0","path":"/test","meta":{},"children":[{"path":"/test/view","title":"View","meta":{}}]}],"*":[{"path":"/","title":"dumi - A doc tool can assist you to develop libraries & write docs.","meta":{"order":10}}]},"zh-CN":{"/zh-CN/components":[{"title":"\u7ec4\u4ef6","path":"/zh-CN/components/foo","meta":{},"children":[{"path":"/zh-CN/components/foo","title":"Foo","meta":{}}]}],"/zh-CN/test":[{"title":"\u5de5\u5177","path":"/zh-CN/test/view","meta":{},"children":[{"path":"/zh-CN/test/view","title":"View","meta":{}}]}],"*":[{"path":"/zh-CN","title":"dumi - \u4e3a\u7ec4\u4ef6\u5f00\u53d1\u573a\u666f\u800c\u751f\u7684\u6587\u6863\u5de5\u5177","meta":{"order":10}}]}},"locales":[{"name":"en-US","label":"English"},{"name":"zh-CN","label":"\u4e2d\u6587"}],"navs":{"en-US":[{"title":"\u9a8c\u8bc1","path":"/test"},{"title":"Components","path":"/components"},{"title":"GitHub","path":"https://github.com/umijs/dumi-template"}],"zh-CN":[{"title":"\u5de5\u5177","path":"/zh-CN/test"},{"title":"\u7ec4\u4ef6","path":"/zh-CN/components"},{"title":"GitHub","path":"https://github.com/umijs/dumi-template"}]},"title":"dumi-template","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"site","repository":{"url":"https://github.com/umijs/dumi-template","branch":"main"},"theme":{}}',
+      '{"menus":{"en-US":{"/components":[{"title":"Components","path":"/components/foo","meta":{},"children":[{"path":"/components/foo","title":"Foo","meta":{}}]}],"/test":[{"title":"\u81ea\u5b9a\u4e49\u5206\u7ec4\u540d\u79f0","path":"/test","meta":{},"children":[{"path":"/test/view","title":"View","meta":{}}]}],"*":[{"path":"/","title":"dumi - A doc tool can assist you to develop libraries & write docs.","meta":{"order":10}}]},"zh-CN":{"/zh-CN/components":[{"title":"\u7ec4\u4ef6","path":"/zh-CN/components/foo","meta":{},"children":[{"path":"/zh-CN/components/foo","title":"Foo","meta":{}}]}],"/zh-CN/test":[{"title":"\u5de5\u5177","path":"/zh-CN/test/view","meta":{},"children":[{"path":"/zh-CN/test/view","title":"View","meta":{}}]}],"*":[{"path":"/zh-CN","title":"dumi - \u4e3a\u7ec4\u4ef6\u5f00\u53d1\u573a\u666f\u800c\u751f\u7684\u6587\u6863\u5de5\u5177","meta":{"order":10}}]}},"locales":[{"name":"en-US","label":"English"},{"name":"zh-CN","label":"\u4e2d\u6587"}],"navs":{"en-US":[{"title":"\u9a8c\u8bc1","path":"/test"},{"title":"Components","path":"/components"},{"title":"GitHub","path":"https://github.com/umijs/dumi-template"}],"zh-CN":[{"title":"\u5de5\u5177","path":"/zh-CN/test"},{"title":"\u7ec4\u4ef6","path":"/zh-CN/components"},{"title":"GitHub","path":"https://github.com/umijs/dumi-template"}]},"title":"BloSi","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"site","repository":{"url":"https://github.com/umijs/dumi-template","branch":"main"},"theme":{}}',
     );
   },
   qHiR: function(e, t, n) {},
@@ -31185,7 +31212,7 @@
                 hasPreviewer: !0,
                 group: { path: '/components/foo', title: 'Components' },
               },
-              title: 'Foo - dumi-template',
+              title: 'Foo - BloSi',
             },
             {
               path: '/zh-CN/components/foo',
@@ -31202,7 +31229,7 @@
                 locale: 'zh-CN',
                 group: { path: '/zh-CN/components/foo', title: '\u7ec4\u4ef6' },
               },
-              title: 'Foo - dumi-template',
+              title: 'Foo - BloSi',
             },
             {
               path: '/test/view',
@@ -31221,7 +31248,7 @@
                 title: 'View',
                 hasPreviewer: !0,
               },
-              title: 'View - dumi-template',
+              title: 'View - BloSi',
             },
             {
               path: '/zh-CN/test/view',
@@ -31229,13 +31256,20 @@
               exact: !0,
               meta: {
                 filePath: 'src/View/index.zh-CN.md',
-                updatedTime: 1705992459e3,
+                updatedTime: 1706060989e3,
                 componentName: 'View',
                 nav: { title: '\u5de5\u5177', path: '/zh-CN/test' },
                 slugs: [
                   { depth: 2, value: 'View', heading: 'view' },
                   { depth: 2, value: 'Change', heading: 'change' },
                   { depth: 2, value: 'gitHub', heading: 'github' },
+                  {
+                    depth: 3,
+                    value:
+                      '\u8bbf\u95ee\u9875\u9762\u8d85\u65f6\u7684\u95ee\u9898',
+                    heading:
+                      '\u8bbf\u95ee\u9875\u9762\u8d85\u65f6\u7684\u95ee\u9898',
+                  },
                   {
                     depth: 3,
                     value:
@@ -31264,7 +31298,7 @@
                 locale: 'zh-CN',
                 group: { path: '/zh-CN/test/view', title: '\u5de5\u5177' },
               },
-              title: 'View - dumi-template',
+              title: 'View - BloSi',
             },
             {
               path: '/',
@@ -31340,7 +31374,7 @@
                 ],
               },
               title:
-                'dumi - A doc tool can assist you to develop libraries & write docs. - dumi-template',
+                'dumi - A doc tool can assist you to develop libraries & write docs. - BloSi',
             },
             {
               path: '/zh-CN',
@@ -31424,7 +31458,7 @@
                 locale: 'zh-CN',
               },
               title:
-                'dumi - \u4e3a\u7ec4\u4ef6\u5f00\u53d1\u573a\u666f\u800c\u751f\u7684\u6587\u6863\u5de5\u5177 - dumi-template',
+                'dumi - \u4e3a\u7ec4\u4ef6\u5f00\u53d1\u573a\u666f\u800c\u751f\u7684\u6587\u6863\u5de5\u5177 - BloSi',
             },
             {
               path: '/components',
@@ -31446,7 +31480,7 @@
               redirect: '/zh-CN/test/view',
             },
           ],
-          title: 'dumi-template',
+          title: 'BloSi',
           component: e => e.children,
         },
       ];
@@ -31475,7 +31509,7 @@
                 history: Object(o['a'])(e.hot),
                 isServer: Object({ NODE_ENV: 'production' }).__IS_SERVER,
                 rootElement: 'root',
-                defaultTitle: 'dumi-template',
+                defaultTitle: 'BloSi',
               },
             });
             return Object(a['renderClient'])(t);
@@ -33293,8 +33327,8 @@
             ? 0 === o.type
             : !r &&
               2 < t.length &&
-              ('o' === t[0] || 'O' === t[0]) &&
-              ('n' === t[1] || 'N' === t[1]);
+                ('o' === t[0] || 'O' === t[0]) &&
+                ('n' === t[1] || 'N' === t[1]);
       i ||
         (Y(t, n, o, r) && (n = null),
         r || null === o
@@ -36031,8 +36065,7 @@
           ? e.shouldComponentUpdate(r, i, a)
           : !t.prototype ||
             !t.prototype.isPureReactComponent ||
-            !no(n, r) ||
-            !no(o, i)
+            !no(n, r) || !no(o, i)
       );
     }
     function Li(e, t, n) {
