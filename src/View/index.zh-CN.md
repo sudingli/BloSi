@@ -28,6 +28,10 @@ export default () => <Foo title="Change" />;
 
 ## gitHub
 
+### 访问页面超时的问题
+
+[参考](https://blog.csdn.net/oyjl__/article/details/132262919)
+
 ### 提交的失败时的端口问题
 
 mac 上使用 git push 命令或者 sourceTree 操作时一直无响应，最后如下错误提示
