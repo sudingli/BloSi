@@ -1,10 +1,10 @@
 ---
 nav:
   title: 组件
-  path: /components
+  path: /components-nav
 ---
 
-## Foo
+## Foo-View
 
 Demo:
 

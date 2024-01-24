@@ -1,13 +1,10 @@
 ---
 nav:
-  title: 验证
-  path: /test
-group:
-  path: /test
-  title: 自定义分组名称
+  title: 组件
+  path: /GK-nav
 ---
 
-## View
+## GK-View
 
 Demo:
 
@@ -15,7 +12,7 @@ Demo:
 import React from 'react';
 import { Foo } from 'dumi-template';
 
-export default () => <Foo title="Test" />;
+export default () => <Foo title="First Demo" />;
 ```
 
 [更多技巧](https://d.umijs.org/guide/demo-principle)

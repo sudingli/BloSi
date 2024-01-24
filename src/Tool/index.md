@@ -1,10 +1,10 @@
 ---
 nav:
   title: 工具
-  path: /test
+  path: /tool-nav
 ---
 
-## View
+## tool-view
 
 Demo:
 
@@ -12,7 +12,7 @@ Demo:
 import React from 'react';
 import { Foo } from 'dumi-template';
 
-export default () => <Foo title="Test" />;
+export default () => <Foo title="tool-view" />;
 ```
 
 ## Change

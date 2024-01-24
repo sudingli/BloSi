@@ -1,10 +1,10 @@
 ---
 nav:
   title: 组件
-  path: /components-nav
+  path: /GK-nav
 ---
 
-## Foo-View
+## GK-View
 
 Demo:
 
